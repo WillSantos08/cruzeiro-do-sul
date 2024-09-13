@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class execExtra {
+public class exec5 {
     public static void main (String args[]) {
         Scanner obj = new Scanner(System.in);
         double HT, VH, PA, SB, NS;

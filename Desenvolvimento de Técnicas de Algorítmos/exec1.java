@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exec3 {
+public class exec1 {
     public static void main (String agrs[]){
         Scanner obj = new Scanner(System.in);
         int n1, n2, n3, n4, media;

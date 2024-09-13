@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exec4 {
+public class exec2 {
     public static void main (String args[]){
         Scanner obj = new Scanner (System.in);
         double vlrGasto;
