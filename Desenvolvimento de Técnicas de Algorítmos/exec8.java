@@ -17,7 +17,7 @@ public class main8 {
             bonus = salario * 0.25;
             resultado = salario + bonus;
             System.out.println("Seu salário após o bonus é de R$" + resultado);
-        } else  if (sexo.equalIgnoreCase("Mulher") && tempo => 10) {
+        } else  if (sexo.equalIgnoreCase("Mulher") && tempo >= 10) {
             bonus = salario * 0.30;
             resultado = salario + bonus;
             System.out.println("Seu salário após o bonus é de R$" + resultado);
