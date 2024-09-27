@@ -4,7 +4,7 @@ public class exec8 {
         Scanner obj = new Scanner(System.in);
 
         int tempo;
-        double salario, resultado,  bonus;
+        double salario, resultado, bonus;
         String sexo;
 
         System.out.println("Informe seu sexo: ");
