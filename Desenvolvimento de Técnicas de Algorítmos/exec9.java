@@ -14,16 +14,16 @@ public class exec9 {
         System.out.println("Informe a quantidade comprada: ");
         qtdComprada = obj.nextInt();
 
-        if (codProduto.equalsIgnoreCase("ABCD")) {
+        if (codProduto.equalsIgnoreCase("ABCD") && qtdComprada != 0) {
             resultado = qtdComprada * 5.30;
         }
-        else if (codProduto.equalsIgnoreCase("XYPK")) {
+        else if (codProduto.equalsIgnoreCase("XYPK") && qtdComprada != 0) {
             resultado = qtdComprada * 6.00;
         }
-        else if (codProduto.equalsIgnoreCase("KLMP")) {
+        else if (codProduto.equalsIgnoreCase("KLMP") && qtdComprada != 0) {
             resultado = qtdComprada * 3.20;
         }
-        else if (codProduto.equalsIgnoreCase("QRST")) {
+        else if (codProduto.equalsIgnoreCase("QRST") && qtdComprada != 0) {
             resultado = qtdComprada * 2.50;
         }
         else {
