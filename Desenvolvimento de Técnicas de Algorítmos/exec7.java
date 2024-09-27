@@ -1,11 +1,11 @@
 import java.util.Scanner;
-public class main7 {
+public class exec7 {
     public static void main (String args[]) {
         Scanner obj = new Scanner(System.in);
 
         int codCargo;
-        double vAum = 0, aSal, nSal;
-        String nCargo = "";
+        double vAum, aSal, nSal;
+        String nCargo;
 
         System.out.println("Informe o código de seu cargo: ");
         codCargo = obj.nextInt();
@@ -14,29 +14,30 @@ public class main7 {
         aSal = obj.nextDouble();
 
         switch(codCargo) {
-            case 1:
+            case 1 -> {
                 nCargo = "Escrituário";
                 vAum = aSal * 0.50;
-            break;
-            case 2:
+            }
+            case 2 -> {
                 nCargo = "Secretário";
                 vAum = aSal * 0.35;
-            break;
-            case 3:
+            }
+            case 3 -> {
                 nCargo = "Caixa";
                 vAum = aSal * 0.20;
-            break;
-            case 4:
+            }
+            case 4 -> {
                 nCargo = "Gerente";
                 vAum = aSal * 0.10;
-            break;
-            case 5:
+            }
+            case 5 -> {
                 nCargo = "Diretor";
                 vAum = aSal * 0;
-            break;
-            default:
+            }
+            default -> {
                 System.out.println("O código do cargo é inválido");
-            return;
+                return;
+            }
         }
 
         nSal = vAum + aSal;
