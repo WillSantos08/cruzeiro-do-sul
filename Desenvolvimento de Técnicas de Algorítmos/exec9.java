@@ -26,8 +26,9 @@ public class exec9 {
         else if (codProduto.equalsIgnoreCase("QRST") && qtdComprada != 0) {
             resultado = qtdComprada * 2.50;
         }
-        else {
+        else if (codProduto.equalsIgnoreCase(codProduto) || qtdComprada != 0) {
             System.out.println("O codigo/quantidade do produto não é uma entrada válida!");
+            return;
         }
 
         System.out.println("Código do Produto: " + codProduto + "\nQuantidade: " + qtdComprada + "\nTotal: R$" + resultado);
