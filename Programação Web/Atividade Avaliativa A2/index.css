@@ -26,9 +26,10 @@ h1 {
 
 p {
     text-align: justify;
+    font-size: 18px;
     align-self: center;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
     width: 300px;
     height: auto;
 }
