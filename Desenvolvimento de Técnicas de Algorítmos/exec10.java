@@ -10,7 +10,7 @@ public class exec10 {
         System.out.println("Informe a quantidade de litros comprados: ");
         qtdLitros = obj.nextDouble();
 
-        System.out.println("Informe o tipo de combustível:\nAlcool\nGasolina");
+        System.out.println("Informe o tipo de combustível (Alcool ou Gasolina): ");
         tipoCombustivel = obj.nextLine();
 
         if (tipoCombustivel.equalsIgnoreCase("Alcool")) {
