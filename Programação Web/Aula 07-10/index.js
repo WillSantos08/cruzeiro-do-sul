@@ -7,7 +7,7 @@ function escolha() {
     }
 
     document.write("</select>");
-    document.write("<br><input type='button' value='Voltar' onclick='voltar()'>");
+    document.write("<br><br><input type='button' value='Voltar' onclick='voltar()'>");
 }
 
 function voltar() {
