@@ -1,6 +1,6 @@
 function escolha() {
     var numero = prompt("Insira um número: ");
-        if (numero == null) {
+        if (numero == null || numero == 0) {
             alert("Digite um valor válido!");
             var numero = prompt("Insira um número: ");
         }
