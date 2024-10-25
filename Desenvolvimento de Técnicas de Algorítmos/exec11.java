@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exec11() {
+public class exec11 {
     public static void main(String args[]) {
         Scanner obj = new Scanner(System.in);
 
@@ -32,6 +32,6 @@ public class exec11() {
             SN = obj.next();
         }
 
-        System.out.println("Média das Idades - " + somaIdade/contaIdade + "\nQuantidade Regular - " + qtdRegular + "\nQuantidade Ótimo - " + qtdOtimo);
+        System.out.println("Média das Idades - " + somaIdade/contaIdade + "\nQuantidade Ótimo - " + qtdOtimo + "\nQuantidade Bom - " + qtdBom + "\nQuantidade Regular - " + qtdRegular);
     }
 }

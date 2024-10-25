@@ -4,7 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
+        {
+            "type": "java",
+            "name": "exec11",
+            "request": "launch",
+            "mainClass": "exec11",
+            "projectName": "Desenvolvimento de Técnicas de Algorítmos_a6ef18a7"
+        },
         {
             "type": "jdk",
             "request": "launch",
