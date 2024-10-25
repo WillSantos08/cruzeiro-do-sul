@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "exec12",
+            "request": "launch",
+            "mainClass": "exec12",
+            "projectName": "Desenvolvimento de Técnicas de Algorítmos_a6ef18a7"
+        },
+        {
+            "type": "java",
             "name": "exec11",
             "request": "launch",
             "mainClass": "exec11",
