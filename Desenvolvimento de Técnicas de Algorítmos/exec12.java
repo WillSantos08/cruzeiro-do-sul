@@ -24,7 +24,7 @@ public class exec12 {
             }
         }
 
-        if (count > 3) {
+        if (escolhaJogador != numSorteado) {
             System.out.println("VOCÊ PERDEU O JOGO!");
         }
     }
